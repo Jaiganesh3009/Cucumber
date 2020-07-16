@@ -5,7 +5,7 @@ Feature: Add Tariff
   Background: 
     And User navigate into tariff plan page
 
-  @sanity @jai
+  
   Scenario: two dimen list
     When User fills all the fields by using 2dimen list
       | 1000 | 5000 | 200 | 100 | 2 | 50 | 1 |
@@ -15,7 +15,7 @@ Feature: Add Tariff
     And User clicks on Tariff submit button
     Then User is displayed with message tariff plan created
 
-  @sanity @jai
+	@sanity  
   Scenario: two dimen map
     When User fills all the fields by using 2dimen map
       | rental | local_minutes | inter_minutes | sms_pack | minutes_charges | inter_charges | sms_charges |
